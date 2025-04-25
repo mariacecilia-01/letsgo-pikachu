@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #F5CF06;
+    --secundary-color: #8E4106;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: "Righteous", sans-serif;
+}
+
+
+header{
+    display: flex;
+    padding: 75px 0 0 75px;
+    gap: 20px;
+    align-items: center;
+    color: var(--secundary-color);
+
+}
+
+span{
+    font-size: 400px;
+    color: white;
+    opacity: 20%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+main h1{
+    font-size: 300px;
+    color: white;
+    font-weight: 400;
+
+
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+
+}
+
+main img{
+    padding-top: 222px;
+    padding-left: 17px;
+    position: absolute;
+    z-index: 1;
+}
+
+.text{
+    width: 630px;
+    height: 154px;
+    align-self: start;
+    color: var(--secundary-color);
+    padding: 20px 0 0 120px;
+    z-index: 2;
+}
+
+.text h2{
+    font-size: 3.7rem;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+.download{
+    background-color: var(--secundary-color);
+    width: 411px;
+    height: 100px;
+    position: fixed;
+    right: 60px;
+    bottom:0;
+    top: 650px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.download p{
+    font-size: 3rem;
+    color: white;
+    opacity: 1;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+}
+
+.download img{
+
+}
