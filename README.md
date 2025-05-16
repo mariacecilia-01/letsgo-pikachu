@@ -11,4 +11,4 @@ Site promocional para o jogo do Pikachu.
 * Markedown
 
 ## Autor
-Maria Cecilia# letsgo_pikachu
+Maria Cecilia
