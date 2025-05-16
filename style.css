@@ -14,6 +14,11 @@
 body{
     background-color: var(--primary-color);
     font-family: "Righteous", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
 }
 
 
@@ -43,6 +48,7 @@ main{
     align-items: center;
     flex-direction: column;
     position: relative;
+    flex-grow: 1;
 
 }
 
@@ -86,25 +92,31 @@ main img{
     background-color: var(--secundary-color);
     width: 411px;
     height: 100px;
-    position: fixed;
-    right: 60px;
-    bottom:0;
-    top: 650px;
+    right: 70px;
+    bottom: 116px;
+    gap: 40px;
     position: absolute;
     align-items: center;
     justify-content: center;
-
-}
-
-.download p{
-    font-size: 3rem;
     color: white;
-    opacity: 1;
-    justify-self: center;
-    text-align: center;
-    align-self: center;
+    font-size: 48px;
+    display: flex;
+    flex-direction:row;
+    border-radius: 12px;
 }
 
-.download img{
-
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    
 }
+
+footer span {
+    font-size: 16px;
+    color: var(--secundary-color);
+    opacity: 100;
+}
+
